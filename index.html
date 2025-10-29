@@ -17,13 +17,35 @@ For this task you will create an HTML document with the following features:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>My First HTML</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
   
 <body>
+<h1>Welcome to my HTML<h1>
 
+<h2>This is my first ever HTML! I'm learning how to structure texts and make them <i>look interesting!</i> I find this quite <b>cool to make</b></h2>
 
+<img
+  src="https://i.redd.it/ahw501fjzmp81.jpg"
+  alt="HTML5 Logo"
+  width="250">
+
+  <br><br>
+  <button onclick="getSport()">click me</button>
+
+  <script>
+    function getSport() {
+      let sport = prompt("What is your favourite sport?");
+
+      if (sport) {
+        alert("Wow! I also love, " + sport + "!");
+      }
+      else {
+        alert("You didn't input a sport");
+      }
+    }
+  </script>
 
   
   <script src="script.js"></script>
